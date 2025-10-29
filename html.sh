@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# see: https://github.com/GAM-team/GAM/tags
-if [ -z "$2" ]
+if [ -z "$1" ]
 then
-  VERSION='v7.27.04'
+  DEST_DIR='build'
 else
-  VERSION="$2"
+  DEST_DIR="$1"
 fi
 
 if [ -z "$2" ]
@@ -15,11 +14,12 @@ else
   DOMAIN="$2"
 fi
 
+# see: https://github.com/GAM-team/GAM/tags
 if [ -z "$3" ]
 then
-  DEST_DIR='build'
+  VERSION='v7.27.04'
 else
-  DEST_DIR="$3"
+  VERSION="$3"
 fi
 
 set -euo pipefail

@@ -15,8 +15,8 @@ Run:
 ```
 pip install -r requirements.txt
 
-# USAGE: bash html.sh <VERSION> <DOMAIN> <BUILD-DIR>
+# USAGE: bash html.sh <BUILD-DIR> <DOMAIN> <VERSION> 
 #   for versions see: https://github.com/GAM-team/GAM/tags
 
-bash html.sh v7.27.04 gam.docs.oxl.app
+bash html.sh ./build/ gam.docs.oxl.app v7.27.04
 ```
