@@ -75,13 +75,13 @@ html_theme_options = {
             "title": "GAM on GitHub",
             "aliases": [],
         },
+        {
+            "version": "https://gyb.docs.oxl.app",
+            "title": "Got-Your-Back Documentation",
+            "aliases": [],
+        },
     ],
     "social": [
-        {
-            "icon": "fontawesome/solid/globe",
-            "link": "http://groups.google.com/group/google-apps-manager",
-            "name": "Google Groups",
-        },
         {
             "icon": "fontawesome/brands/github",
             "link": "https://github.com/O-X-L",

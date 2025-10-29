@@ -13,10 +13,15 @@ This is a mirror of the [official GAM documentation](https://github.com/GAM-team
 Run:
 
 ```
+apt install git python3-pip
+
+# with VENV
+apt install python3-virtualenv 
+bash venv.sh
+
+# WITHOUT
 pip install -r requirements.txt
 
-# USAGE: bash html.sh <BUILD-DIR> <DOMAIN> <VERSION> 
-#   for versions see: https://github.com/GAM-team/GAM/tags
-
-bash html.sh ./build/ gam.docs.oxl.app v7.27.04
+# USAGE: bash html.sh <BUILD-DIR> <DOMAIN> 
+bash html.sh ./build/ gam.docs.oxl.app
 ```

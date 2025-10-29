@@ -14,14 +14,6 @@ else
   DOMAIN="$2"
 fi
 
-# see: https://github.com/GAM-team/GAM/tags
-if [ -z "$3" ]
-then
-  VERSION='v7.27.04'
-else
-  VERSION="$3"
-fi
-
 set -euo pipefail
 
 function log() {
@@ -49,9 +41,8 @@ fi
 log 'DOWNLOADING UPSTREAM DOCS'
 cd "$TMP_DIR"
 rm -f "${SRC_DIR}/source/usage/"*.md "${SRC_DIR}/source/intro/"*.md
-wget "https://github.com/GAM-team/GAM/archive/refs/tags/${VERSION}.zip" -O 'gam.zip' >/dev/null
-unzip 'gam.zip' >/dev/null
-cp GAM-*/wiki/*.md "${SRC_DIR}/source/usage/"
+git clone --depth 1 'https://github.com/GAM-team/GAM.wiki.git' >/dev/null
+cp GAM.wiki/*.md "${SRC_DIR}/source/usage/"
 
 mv "${SRC_DIR}/source/usage/Home.md" "${SRC_DIR}/source/intro/"
 rm -f "${SRC_DIR}/source/usage/README.md"
