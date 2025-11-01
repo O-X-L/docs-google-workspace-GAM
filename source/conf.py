@@ -80,12 +80,22 @@ html_theme_options = {
             "title": "Got-Your-Back Documentation",
             "aliases": [],
         },
+        {
+            "version": "https://www.O-X-L.com",
+            "title": "About OXL",
+            "aliases": [],
+        },
     ],
     "social": [
         {
             "icon": "fontawesome/brands/github",
             "link": "https://github.com/O-X-L",
             "name": "OXL on GitHub",
+        },
+        {
+            "icon": "fontawesome/brands/globe",
+            "link": "https://www.O-X-L.com",
+            "name": "OXL Website",
         },
     ],
 }
