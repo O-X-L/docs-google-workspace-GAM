@@ -39,6 +39,7 @@ html_theme_options = {
         "search.suggest",
         "toc.follow",
         "toc.sticky",
+        "toc.integrate",
         "content.tabs.link",
         "content.code.copy",
         "content.action.edit",
@@ -93,7 +94,7 @@ html_theme_options = {
             "name": "OXL on GitHub",
         },
         {
-            "icon": "fontawesome/brands/globe",
+            "icon": "fontawesome/solid/globe",
             "link": "https://www.O-X-L.com",
             "name": "OXL Website",
         },
