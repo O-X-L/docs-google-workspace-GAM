@@ -7,7 +7,7 @@ Imprint
 Info
 ****
 
-See: `www.O-X-L.com/impressum <https:/www.o-x-l.com/impressum>`_
+See: `www.OXL.app/impressum <https:/www.oxl.app/impressum>`_
 
 **Content orientation**: Providing information about the `GAM-team/GAM <https://github.com/GAM-team/GAM>`_ FOSS project.
 
